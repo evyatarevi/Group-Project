@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --primary-color: #fff;
+  --bgc-color: #000;
+  --grey-08: #141414;
+  --grey-10: #1a1a1a;
+  --grey-15: #262626;
+  --grey-60: #999999;
+  --purple-60: #703bf7;
+  --primary-font: "Urbanist", sans-serif;
+}
+
+body {
+  background-color: var(--grey-08);
+  color: var(--primary-color);
+  font-family: var(--primary-font);
+}
+
+.hero-section {
+  display: flex;
+  position: relative;
+}
+
+.hero-section-details {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  padding-left: 2rem;
+  width: 100rem;
+  height: 81.4rem;
+  justify-content: center;
+  background-color: var(--bgc-color);
+}
+
+.hero-section-details-header_h1 {
+  font-size: 5rem;
+  font-weight: 600;
+  width: 60rem;
+  margin-bottom: 2.4rem;
+  line-height: 120%;
+}
+
+.hero-section-details-header_p {
+  font-size: 1.8rem;
+  /* width: 75.8rem; */
+  line-height: 150%;
+  color: var(--grey-60);
+}
+
+/* btns */
+.hero-section-details-btns {
+  display: flex;
+}
+.hero-section-details-btns button {
+  padding: 1.8rem 2.4rem;
+  border-radius: 1rem;
+  font-size: 1.8rem;
+  color: inherit;
+}
+
+.hero-section-details-btns_learn-btn {
+  border: solid 1px var(--grey-15);
+  margin-right: 2rem;
+  background-color: transparent;
+}
+
+.hero-section-details-btns_browse-btn {
+  background-color: var(--purple-60);
+}
+
+/* info */
+.hero-section-details-info-list {
+  display: flex;
+  gap: 2rem;
+}
+
+.hero-section-details-info-list_li {
+  padding: 1.6rem 2.4rem;
+  border: solid 1px var(--grey-15);
+  border-radius: 12px;
+}
+
+.hero-section-details-info-list_h4 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+.hero-section-details-info-list_p {
+  font-size: 1.8rem;
+  color: var(--grey-60);
+}
+
+.building-image img {
+  width: 93%;
+  height: 90%;
+  object-fit: cover;
+  margin-left: 4rem;
+}
+
+.icon img {
+  width: 15rem;
+}
+.icon {
+  padding-top: 15rem;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+/* options-list */
+.options-list {
+  border: solid 1px var(--grey-15);
+  background-color: var(--bgc-color);
+  padding: 2rem;
+  display: flex;
+  gap: 2rem;
+  box-shadow: 0px 0px 0px 10px #191919;
+}
+.option-box {
+  border-radius: 12px;
+  border: 1px solid var(--grey-15);
+  text-align: center;
+  padding: 2rem 0;
+  background-color: var(--grey-08);
+  width: 45.5rem;
+  height: 14rem;
+}
+
+.option-box__img {
+  width: 7rem;
+}
+.option-box__p {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  line-height: 3rem;
+  padding-top: 2.5rem;
+}

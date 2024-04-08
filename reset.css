@@ -1,0 +1,26 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* Lists styles */
+ul {
+  list-style: none;
+}
+
+/* Anchor styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Button styles */
+button {
+  cursor: pointer;
+}
